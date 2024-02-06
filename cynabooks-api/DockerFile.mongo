@@ -1,0 +1,4 @@
+FROM mongo:latest
+
+# COPY ./cynabooks-api/scripts/import-script.sh /mongo-seed/import-script.sh
+# RUN chmod +x mongo-seed/import-script.sh

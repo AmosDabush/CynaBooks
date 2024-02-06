@@ -1,0 +1,21 @@
+{
+  "name": "cynabooks-setup",
+  "version": "1.0.0",
+  "description": "Setup script for books app React,Node,mongoDB App for Cynamics Sports",
+  "scripts": {
+    "setup-ui": "cd cynabooks-ui && npm install",
+    "setup-api": "cd cynabooks-api && npm install",
+    "setup": "node setup.js",
+    "compose:dev": "docker compose up --build",
+    "dev": "docker compose up --build",
+    "start": "yarn dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.0.1",
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.4.4"
+  }
+}

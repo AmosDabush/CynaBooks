@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgba(97, 113, 113, 0.853);
+  padding: 20px;
+  border-radius: 20px;
+  overflow: auto;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+  }
+
+  

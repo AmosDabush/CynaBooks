@@ -1,0 +1,33 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    position: relative;
+    background-image: url('../../assets/404.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .not-found-content {    
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #4ce180a2;
+    max-width: 600px;
+  }
+  
+  .home-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

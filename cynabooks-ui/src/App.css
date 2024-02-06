@@ -1,0 +1,29 @@
+
+.App {
+  text-align: center;
+  min-width: 730px;  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.background-image {  
+  overflow: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  padding: 5px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;  background-image: url('assets/library.webp');
+}

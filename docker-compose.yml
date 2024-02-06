@@ -1,0 +1,55 @@
+version: "3.8"
+services:
+  cynabooks-client:
+    container_name: CYNABOOKS-UI
+    build:
+      context: ./cynabooks-ui
+      dockerfile: ./Dockerfile
+    volumes:
+      - "./cynabooks-ui:/app"
+      - "/app/node_modules"
+    ports:
+      - 80:80
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+
+  cynabooks-server:
+    container_name: CYNABOOKS-API
+    build: ./cynabooks-api
+    volumes:
+      - ./cynabooks-api/:/usr/src/app
+    networks:
+      - dev
+    ports:
+      - "3000:3000"
+    depends_on:
+      - cynabooks-db
+    environment:
+      - MONGODB_URI=mongodb://cynabooks-db:27017/CYNABOOKS
+
+  mongo_seed:
+    container_name: mongo_seed
+    build:
+      context: .
+      dockerfile: ./cynabooks-api/DockerFile.seed
+    networks:
+      - dev
+    depends_on:
+      - cynabooks-db
+    # command: ["./mongo-seed/import-script.sh"]
+
+  cynabooks-db:
+    container_name: cynabooks-db
+    image: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - dev
+
+volumes:
+  mongo_data:
+
+networks:
+  dev:
+    name: dev
+    driver: bridge

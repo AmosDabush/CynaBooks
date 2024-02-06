@@ -1,0 +1,632 @@
+[
+  {
+    "title": "The Time Machine",
+    "description": "A science fiction classic about time travel.",
+    "author": "H.G. Wells",
+    "publicationDate": "1895-01-01T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 12.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "1984",
+    "description": "A Horror novel depicting a totalitarian society.",
+    "author": "George Orwell",
+    "publicationDate": "1949-06-08T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 14.99,
+    "color": "#3366FF"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "description": "A Pulitzer Prize-winning novel about racism and injustice.",
+    "author": "Harper Lee",
+    "publicationDate": "1960-07-11T00:00:00.000Z",
+    "genre": "Drama",
+    "price": 9.99,
+    "color": "#33FF57"
+  },
+  {
+    "title": "The Great Gatsby",
+    "description": "A classic novel set in the Roaring Twenties.",
+    "author": "F. Scott Fitzgerald",
+    "publicationDate": "1925-04-10T00:00:00.000Z",
+    "genre": "Drama",
+    "price": 11.99,
+    "color": "#FF3366"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "description": "A coming-of-age novel featuring the character Holden Caulfield.",
+    "author": "J.D. Salinger",
+    "publicationDate": "1951-07-16T00:00:00.000Z",
+    "genre": "Satire",
+    "price": 10.99,
+    "color": "#57FF33"
+  },
+  {
+    "title": "The Hobbit",
+    "description": "A fantasy novel about Bilbo Baggins' adventures.",
+    "author": "J.R.R. Tolkien",
+    "publicationDate": "1937-09-21T00:00:00.000Z",
+    "genre": "Fantasy",
+    "price": 15.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "The Shining",
+    "description": "A horror novel set in an eerie, haunted hotel.",
+    "author": "Stephen King",
+    "publicationDate": "1977-01-28T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 13.99,
+    "color": "#3366FF"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "description": "A classic novel exploring love and class in 19th-century England.",
+    "author": "Jane Austen",
+    "publicationDate": "1813-01-28T00:00:00.000Z",
+    "genre": "Romance",
+    "price": 12.99,
+    "color": "#33FF57"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "description": "A mystery thriller involving art, religion, and codes.",
+    "author": "Dan Brown",
+    "publicationDate": "2003-03-18T00:00:00.000Z",
+    "genre": "Mystery",
+    "price": 14.99,
+    "color": "#FF3366"
+  },
+  {
+    "title": "Brave New World",
+    "description": "A Horror novel portraying a future society.",
+    "author": "Aldous Huxley",
+    "publicationDate": "1932-01-01T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 11.99,
+    "color": "#57FF33"
+  },
+  {
+    "title": "Lord of the Flies",
+    "description": "A novel depicting the descent into savagery of a group of boys stranded on an island.",
+    "author": "William Golding",
+    "publicationDate": "1954-09-17T00:00:00.000Z",
+    "genre": "Adventure",
+    "price": 13.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "War and Peace",
+    "description": "An epic novel about Russian society during the Napoleonic era.",
+    "author": "Leo Tolstoy",
+    "publicationDate": "1869-01-01T00:00:00.000Z",
+    "genre": "Fantasy",
+    "price": 14.99,
+    "color": "#3366FF"
+  },
+  {
+    "title": "Crime and Punishment",
+    "description": "A psychological thriller about a young student's descent into criminality.",
+    "author": "Fyodor Dostoevsky",
+    "publicationDate": "1866-01-01T00:00:00.000Z",
+    "genre": "Mystery",
+    "price": 12.99,
+    "color": "#33FF57"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "description": "A high-fantasy trilogy featuring a quest to destroy a powerful ring.",
+    "author": "J.R.R. Tolkien",
+    "publicationDate": "1954-07-29T00:00:00.000Z",
+    "genre": "Fantasy",
+    "price": 16.99,
+    "color": "#FF3366"
+  },
+  {
+    "title": "The Hunger Games",
+    "description": "A Horror novel where teenagers fight to the death in a televised competition.",
+    "author": "Suzanne Collins",
+    "publicationDate": "2008-09-14T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 11.99,
+    "color": "#57FF33"
+  },
+  {
+    "title": "Dracula",
+    "description": "A classic horror novel featuring Count Dracula and vampire hunters.",
+    "author": "Bram Stoker",
+    "publicationDate": "1897-05-26T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 13.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "The Odyssey",
+    "description": "An epic poem about Odysseus' journey home after the Trojan War.",
+    "author": "Homer",
+    "publicationDate": "8th century BCE",
+    "genre": "Epic",
+    "price": 12.99,
+    "color": "#3366FF"
+  },
+  {
+    "title": "Frankenstein",
+    "description": "A classic novel about a scientist and his monstrous creation.",
+    "author": "Mary Shelley",
+    "publicationDate": "1818-01-01T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 14.99,
+    "color": "#33FF57"
+  },
+  {
+    "title": "The Alchemist",
+    "description": "A philosophical novel about a shepherd's journey to find his personal legend.",
+    "author": "Paulo Coelho",
+    "publicationDate": "1988-01-01T00:00:00.000Z",
+    "genre": "Adventure",
+    "price": 10.99,
+    "color": "#FF3366"
+  },
+  {
+    "title": "The Road",
+    "description": "A post-apocalyptic novel about a father and son's journey to survival.",
+    "author": "Cormac McCarthy",
+    "publicationDate": "2006-09-26T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 13.99,
+    "color": "#57FF33"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "description": "A comedic science fiction series about a hapless human and his alien friend's adventures through space.",
+    "author": "Douglas Adams",
+    "publicationDate": "1979-10-12T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 12.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "Moby-Dick",
+    "description": "A novel about Captain Ahab's obsessive quest to kill the white whale, Moby-Dick.",
+    "author": "Herman Melville",
+    "publicationDate": "1851-10-18T00:00:00.000Z",
+    "genre": "Adventure",
+    "price": 14.99,
+    "color": "#3366FF"
+  },
+  {
+    "title": "The Chronicles of Narnia",
+    "description": "A fantasy series about the adventures of children in the magical land of Narnia.",
+    "author": "C.S. Lewis",
+    "publicationDate": "1950-1956",
+    "genre": "Fantasy",
+    "price": 11.99,
+    "color": "#33FF57"
+  },
+  {
+    "title": "The Time Traveler's Wife",
+    "description": "A science fiction novel about a man who involuntarily time travels and his relationship with his wife.",
+    "author": "Audrey Niffenegger",
+    "publicationDate": "2003-09-09T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 19.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "1984",
+    "description": "A Horror novel that explores the consequences of totalitarianism and surveillance.",
+    "author": "George Orwell",
+    "publicationDate": "1949-06-08T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 15.99,
+    "color": "#4287f5"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "description": "A classic novel that addresses issues of racial injustice and moral growth in the American South.",
+    "author": "Harper Lee",
+    "publicationDate": "1960-07-11T00:00:00.000Z",
+    "genre": "Drama",
+    "price": 12.99,
+    "color": "#66cc66"
+  },
+  {
+    "title": "The Great Gatsby",
+    "description": "A novel set in the Roaring Twenties, exploring themes of decadence, idealism, and the American Dream.",
+    "author": "F. Scott Fitzgerald",
+    "publicationDate": "1925-04-10T00:00:00.000Z",
+    "genre": "Drama",
+    "price": 14.99,
+    "color": "#ff9900"
+  },
+  {
+    "title": "The Hunger Games",
+    "description": "A Horror novel about a young girl who participates in a brutal televised competition.",
+    "author": "Suzanne Collins",
+    "publicationDate": "2008-09-14T00:00:00.000Z",
+    "genre": "Action",
+    "price": 16.99,
+    "color": "#cc3333"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "description": "A classic novel about love, class, and societal expectations in 19th-century England.",
+    "author": "Jane Austen",
+    "publicationDate": "1813-01-28T00:00:00.000Z",
+    "genre": "Romance",
+    "price": 11.99,
+    "color": "#9933cc"
+  },
+  {
+    "title": "Sherlock Holmes: A Study in Scarlet",
+    "description": "The first Sherlock Holmes novel, introducing the famous detective and his friend Dr. Watson.",
+    "author": "Arthur Conan Doyle",
+    "publicationDate": "1887-03-14T00:00:00.000Z",
+    "genre": "Mystery",
+    "price": 13.99,
+    "color": "#336699"
+  },
+  {
+    "title": "The Shining",
+    "description": "A psychological horror novel about a family's stay at a haunted hotel.",
+    "author": "Stephen King",
+    "publicationDate": "1977-01-28T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 17.99,
+    "color": "#993300"
+  },
+  {
+    "title": "Brave New World",
+    "description": "A Horror novel that envisions a future society controlled by technology and genetic engineering.",
+    "author": "Aldous Huxley",
+    "publicationDate": "1932-09-05T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 18.99,
+    "color": "#ff99cc"
+  },
+  {
+    "title": "Catch-22",
+    "description": "A satirical novel that explores the absurdity of war and bureaucracy.",
+    "author": "Joseph Heller",
+    "publicationDate": "1961-10-10T00:00:00.000Z",
+    "genre": "Satire",
+    "price": 14.99,
+    "color": "#ffcc00"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "description": "A coming-of-age novel that follows the experiences of a disenchanted teenager in New York City.",
+    "author": "J.D. Salinger",
+    "publicationDate": "1951-07-16T00:00:00.000Z",
+    "genre": "Drama",
+    "price": 12.99,
+    "color": "#cc66cc"
+  },
+  {
+    "title": "Jurassic Park",
+    "description": "A science fiction thriller about a theme park filled with cloned dinosaurs that goes awry.",
+    "author": "Michael Crichton",
+    "publicationDate": "1990-11-20T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 19.99,
+    "color": "#339933"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "description": "A mystery thriller that follows a symbologist's quest to solve a murder and uncover a secret society's mystery.",
+    "author": "Dan Brown",
+    "publicationDate": "2003-03-17T00:00:00.000Z",
+    "genre": "Mystery",
+    "price": 16.99,
+    "color": "#cc9933"
+  },
+  {
+    "title": "Frankenstein",
+    "description": "A gothic novel that tells the story of a scientist who creates a living being from dead body parts.",
+    "author": "Mary Shelley",
+    "publicationDate": "1818-01-01T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 15.99,
+    "color": "#663333"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "description": "A coming-of-age novel featuring the character Holden Caulfield.",
+    "author": "J.D. Salinger",
+    "publicationDate": "1951-07-16T00:00:00.000Z",
+    "genre": "Satire",
+    "price": 10.99,
+    "color": "#57FF33"
+  },
+  {
+    "title": "The Hobbit",
+    "description": "A fantasy novel about Bilbo Baggins' adventures.",
+    "author": "J.R.R. Tolkien",
+    "publicationDate": "1937-09-21T00:00:00.000Z",
+    "genre": "Fantasy",
+    "price": 15.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "The Shining",
+    "description": "A horror novel set in an eerie, haunted hotel.",
+    "author": "Stephen King",
+    "publicationDate": "1977-01-28T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 13.99,
+    "color": "#3366FF"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "description": "A classic novel exploring love and class in 19th-century England.",
+    "author": "Jane Austen",
+    "publicationDate": "1813-01-28T00:00:00.000Z",
+    "genre": "Romance",
+    "price": 12.99,
+    "color": "#33FF57"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "description": "A mystery thriller involving art, religion, and codes.",
+    "author": "Dan Brown",
+    "publicationDate": "2003-03-18T00:00:00.000Z",
+    "genre": "Mystery",
+    "price": 14.99,
+    "color": "#FF3366"
+  },
+  {
+    "title": "Brave New World",
+    "description": "A Horror novel portraying a future society.",
+    "author": "Aldous Huxley",
+    "publicationDate": "1932-01-01T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 11.99,
+    "color": "#57FF33"
+  },
+  {
+    "title": "Lord of the Flies",
+    "description": "A novel depicting the descent into savagery of a group of boys stranded on an island.",
+    "author": "William Golding",
+    "publicationDate": "1954-09-17T00:00:00.000Z",
+    "genre": "Adventure",
+    "price": 13.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "War and Peace",
+    "description": "An epic novel about Russian society during the Napoleonic era.",
+    "author": "Leo Tolstoy",
+    "publicationDate": "1869-01-01T00:00:00.000Z",
+    "genre": "Fantasy",
+    "price": 14.99,
+    "color": "#3366FF"
+  },
+  {
+    "title": "Crime and Punishment",
+    "description": "A psychological thriller about a young student's descent into criminality.",
+    "author": "Fyodor Dostoevsky",
+    "publicationDate": "1866-01-01T00:00:00.000Z",
+    "genre": "Mystery",
+    "price": 12.99,
+    "color": "#33FF57"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "description": "A high-fantasy trilogy featuring a quest to destroy a powerful ring.",
+    "author": "J.R.R. Tolkien",
+    "publicationDate": "1954-07-29T00:00:00.000Z",
+    "genre": "Fantasy",
+    "price": 16.99,
+    "color": "#FF3366"
+  },
+  {
+    "title": "The Hunger Games",
+    "description": "A Horror novel where teenagers fight to the death in a televised competition.",
+    "author": "Suzanne Collins",
+    "publicationDate": "2008-09-14T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 11.99,
+    "color": "#57FF33"
+  },
+  {
+    "title": "Dracula",
+    "description": "A classic horror novel featuring Count Dracula and vampire hunters.",
+    "author": "Bram Stoker",
+    "publicationDate": "1897-05-26T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 13.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "The Odyssey",
+    "description": "An epic poem about Odysseus' journey home after the Trojan War.",
+    "author": "Homer",
+    "publicationDate": "8th century BCE",
+    "genre": "Epic",
+    "price": 12.99,
+    "color": "#3366FF"
+  },
+  {
+    "title": "Frankenstein",
+    "description": "A classic novel about a scientist and his monstrous creation.",
+    "author": "Mary Shelley",
+    "publicationDate": "1818-01-01T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 14.99,
+    "color": "#33FF57"
+  },
+  {
+    "title": "The Alchemist",
+    "description": "A philosophical novel about a shepherd's journey to find his personal legend.",
+    "author": "Paulo Coelho",
+    "publicationDate": "1988-01-01T00:00:00.000Z",
+    "genre": "Adventure",
+    "price": 10.99,
+    "color": "#FF3366"
+  },
+  {
+    "title": "The Road",
+    "description": "A post-apocalyptic novel about a father and son's journey to survival.",
+    "author": "Cormac McCarthy",
+    "publicationDate": "2006-09-26T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 13.99,
+    "color": "#57FF33"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "description": "A comedic science fiction series about a hapless human and his alien friend's adventures through space.",
+    "author": "Douglas Adams",
+    "publicationDate": "1979-10-12T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 12.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "Moby-Dick",
+    "description": "A novel about Captain Ahab's obsessive quest to kill the white whale, Moby-Dick.",
+    "author": "Herman Melville",
+    "publicationDate": "1851-10-18T00:00:00.000Z",
+    "genre": "Adventure",
+    "price": 14.99,
+    "color": "#3366FF"
+  },
+  {
+    "title": "The Chronicles of Narnia",
+    "description": "A fantasy series about the adventures of children in the magical land of Narnia.",
+    "author": "C.S. Lewis",
+    "publicationDate": "1950-1956",
+    "genre": "Fantasy",
+    "price": 11.99,
+    "color": "#33FF57"
+  },
+  {
+    "title": "The Time Traveler's Wife",
+    "description": "A science fiction novel about a man who involuntarily time travels and his relationship with his wife.",
+    "author": "Audrey Niffenegger",
+    "publicationDate": "2003-09-09T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 19.99,
+    "color": "#FF5733"
+  },
+  {
+    "title": "1984",
+    "description": "A Horror novel that explores the consequences of totalitarianism and surveillance.",
+    "author": "George Orwell",
+    "publicationDate": "1949-06-08T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 15.99,
+    "color": "#4287f5"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "description": "A classic novel that addresses issues of racial injustice and moral growth in the American South.",
+    "author": "Harper Lee",
+    "publicationDate": "1960-07-11T00:00:00.000Z",
+    "genre": "Drama",
+    "price": 12.99,
+    "color": "#66cc66"
+  },
+  {
+    "title": "The Great Gatsby",
+    "description": "A novel set in the Roaring Twenties, exploring themes of decadence, idealism, and the American Dream.",
+    "author": "F. Scott Fitzgerald",
+    "publicationDate": "1925-04-10T00:00:00.000Z",
+    "genre": "Drama",
+    "price": 14.99,
+    "color": "#ff9900"
+  },
+  {
+    "title": "The Hunger Games",
+    "description": "A Horror novel about a young girl who participates in a brutal televised competition.",
+    "author": "Suzanne Collins",
+    "publicationDate": "2008-09-14T00:00:00.000Z",
+    "genre": "Action",
+    "price": 16.99,
+    "color": "#cc3333"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "description": "A classic novel about love, class, and societal expectations in 19th-century England.",
+    "author": "Jane Austen",
+    "publicationDate": "1813-01-28T00:00:00.000Z",
+    "genre": "Romance",
+    "price": 11.99,
+    "color": "#9933cc"
+  },
+  {
+    "title": "Sherlock Holmes: A Study in Scarlet",
+    "description": "The first Sherlock Holmes novel, introducing the famous detective and his friend Dr. Watson.",
+    "author": "Arthur Conan Doyle",
+    "publicationDate": "1887-03-14T00:00:00.000Z",
+    "genre": "Mystery",
+    "price": 13.99,
+    "color": "#336699"
+  },
+  {
+    "title": "The Shining",
+    "description": "A psychological horror novel about a family's stay at a haunted hotel.",
+    "author": "Stephen King",
+    "publicationDate": "1977-01-28T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 17.99,
+    "color": "#993300"
+  },
+  {
+    "title": "Brave New World",
+    "description": "A Horror novel that envisions a future society controlled by technology and genetic engineering.",
+    "author": "Aldous Huxley",
+    "publicationDate": "1932-09-05T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 18.99,
+    "color": "#ff99cc"
+  },
+  {
+    "title": "Catch-22",
+    "description": "A satirical novel that explores the absurdity of war and bureaucracy.",
+    "author": "Joseph Heller",
+    "publicationDate": "1961-10-10T00:00:00.000Z",
+    "genre": "Satire",
+    "price": 14.99,
+    "color": "#ffcc00"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "description": "A coming-of-age novel that follows the experiences of a disenchanted teenager in New York City.",
+    "author": "J.D. Salinger",
+    "publicationDate": "1951-07-16T00:00:00.000Z",
+    "genre": "Drama",
+    "price": 12.99,
+    "color": "#cc66cc"
+  },
+  {
+    "title": "Jurassic Park",
+    "description": "A science fiction thriller about a theme park filled with cloned dinosaurs that goes awry.",
+    "author": "Michael Crichton",
+    "publicationDate": "1990-11-20T00:00:00.000Z",
+    "genre": "Science fiction",
+    "price": 19.99,
+    "color": "#339933"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "description": "A mystery thriller that follows a symbologist's quest to solve a murder and uncover a secret society's mystery.",
+    "author": "Dan Brown",
+    "publicationDate": "2003-03-17T00:00:00.000Z",
+    "genre": "Mystery",
+    "price": 16.99,
+    "color": "#cc9933"
+  },
+  {
+    "title": "Frankenstein",
+    "description": "A gothic novel that tells the story of a scientist who creates a living being from dead body parts.",
+    "author": "Mary Shelley",
+    "publicationDate": "1818-01-01T00:00:00.000Z",
+    "genre": "Horror",
+    "price": 15.99,
+    "color": "#663333"
+  }
+]

@@ -1,0 +1,12 @@
+FROM mongo
+
+# Copy the necessary scripts and data into the container
+COPY ./cynabooks-api/scripts/import-script.sh /mongo-seed/import-script.sh
+COPY ./cynabooks-api/scripts/mockBooks.json /mongo-seed/mockBooks.json
+COPY ./cynabooks-api/scripts/mockBooks.json /mongo-seed/generated_books.json
+
+# Ensure the import script is executable
+RUN chmod +x /mongo-seed/import-script.sh
+
+# Use the import script as the entrypoint/command to run when the container starts
+CMD ["/mongo-seed/import-script.sh"]
