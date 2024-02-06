@@ -39,3 +39,6 @@ export const searchBooksAsync = async ({
 
 export const removeBookAsync = async (bookId: string) =>
   await axios.delete(`${API_URL}/books/${bookId}`);
+
+export const getBookByIdAsync = async (bookId: string) =>
+  await axios.get(`${API_URL}/books/${bookId}`);

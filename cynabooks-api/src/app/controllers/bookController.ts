@@ -181,3 +181,28 @@ export const searchBooks = async (
     res.status(500).json({ error: "Internal server error" });
   }
 };
+
+export const getBookById = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    console.log(req.params.id);
+    const bookId = req.params.id;
+    const book = await Book.findById(bookId);
+
+    if (!book) {
+      res.status(404).json({ message: "Book not found" });
+      return;
+    }
+
+    logger.info(`Successfully fetched book with ID: ${bookId}`);
+    res.json(book);
+  } catch (error) {
+    console.error(`Error fetching book with ID: ${req.params.id}:`, error);
+    logger.error(`Error fetching book with ID: ${req.params.id}`, { error });
+    res
+      .status(500)
+      .json({ error: `Error fetching book with ID: ${req.params.id}:` });
+  }
+};

@@ -1,18 +1,29 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { IBook } from "../../types/contextInterfaces";
 import { useBooks } from "../../context/Context";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import {getBookByIdAsync} from '../../http/http';
 import "./BookPage.css";
 const BookPage = () => {
   const { bookId } = useParams();
   const { books, setSelectedBook } = useBooks();
+  const [currentBook, setCurrentBook] = useState<IBook|undefined>(books.find((book) => book._id === bookId));
   const navigate = useNavigate();
-
-  const currentBook = books.find((book) => book._id === bookId);
 
   useEffect(() => {
     currentBook && setSelectedBook(currentBook);
-  }, [bookId]);
+    if (!currentBook && bookId) {
+      getNewBook(bookId)
+    }
+    console.log(currentBook);
+    
+  }, [currentBook]);
+
+  const getNewBook = async (bookId:string) => {
+    const res = await getBookByIdAsync(bookId);
+    setCurrentBook(res.data);
+    return ;
+  }
 
   const handleGoHome = () => {
     navigate("/");

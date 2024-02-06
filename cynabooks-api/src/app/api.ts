@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import connectToDatabase from "./configs/database";
-import booksRoutes from "./routes/favoriteRoutes";
+import booksRoutes from "./routes/routes";
 
 const app = express();
 const PORT = process.env.PORT ?? 3000;
