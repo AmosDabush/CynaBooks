@@ -1,7 +1,13 @@
-
-
 # CynaBooks - Book Catalog Application
 CynaBooks leverages React for its front-end, offering a dynamic and responsive user interface. React Query is used for efficient data fetching and state management, enabling robust caching mechanisms that enhance performance. The back-end is powered by Node.js, with Express serving as the framework for creating the API. MongoDB is chosen for the database, providing a flexible, document-oriented storage solution. Docker facilitates easy setup and deployment by containerizing the application environment. This tech stack ensures a scalable, maintainable, and user-friendly application experience.
+
+## EXTRA Features 
+Client Cache: Utilizes React Query for client-side caching, boosting performance and syncing data.
+Pagination: Enables easy navigation through large collections with responsive client-side pagination.
+MongoSeed & BookGenerator: Scripts to seed MongoDB with rich initial data, including a BookGenerator for testing.
+Update Book: Empowers users to edit book details via an intuitive interface or API mutations.
+Notifications: Enhances user communication with react-toastify or custom notifications for key events.
+Winston Logger: Integrates Winston logger for comprehensive server-side logging.
 
 ## Introduction
 

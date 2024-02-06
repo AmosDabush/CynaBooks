@@ -1,34 +1,32 @@
 import React, { useEffect, useState } from "react";
-import { useBooks } from "../../context/Context";
 import BookItem from "./BookItem/BookItem";
-import { IBook } from "../../types/contextInterfaces";
-import Pagination from "../../components/Pagination/Pagination";
-import { Container, Typography, Grid, Button, Dialog } from "@mui/material";
-import useDebounce from "../../hooks/useDebounce";
-import SearchBar from "../../components/SearchBar/SearchBar";
-import { Configs } from "../../constants/constants";
 import CreateBookForm from "../../components/DialogForm/CreateBookForm";
-import { useNavigate } from "react-router-dom";
-import "./BookCatalog.css";
-import { useTheme } from "@mui/material";
 import Loader from "../../partials/Loader/Loader";
+import Pagination from "../../components/Pagination/Pagination";
+import SearchBar from "../../components/SearchBar/SearchBar";
+import useDebounce from "../../hooks/useDebounce";
+import { Container, Typography, Grid, Button, Dialog } from "@mui/material";
+import { IBook } from "../../types/contextInterfaces";
+import { useBooks } from "../../context/Context";
+import { useNavigate } from "react-router-dom";
+import { useTheme } from "@mui/material";
+import "./BookCatalog.css";
 
 const BookCatalog: React.FC = () => {
   const {
     books,
-    selectedBook,
-    setSelectedBook,
     fetchBooks,
-    removeBook,
     hasNextPage,
-    searchBooks,
-    isLoading,
     isCache,
-    setPage,
-    perPage,
+    isLoading,
     page,
-    setSearchQuery,
+    perPage,
+    removeBook,
+    searchBooks,
     searchQuery,
+    setPage,
+    setSearchQuery,
+    setSelectedBook,
     updateBook,
   } = useBooks();
 
